@@ -39,11 +39,11 @@ const user = JSON.parse(localStorage.getItem("userData"))
   return (
     <div className="home">
       <div>
-          <h1>{user.name}</h1>
-          <p>{user.gender}</p>
-          <p>{user.id}</p>
-          <p>{user.email}</p>
-          <p>{user.status}</p>
+        <h1 className="user-name">{user.name}</h1>
+        <p className="user-detail">Gender: {user.gender}</p>
+        <p className="user-detail">ID: {user.id}</p>
+        <p className="user-detail">Email: {user.email}</p>
+        <p className="user-detail">Status: {user.status}</p>
         </div>
       <div>
 
