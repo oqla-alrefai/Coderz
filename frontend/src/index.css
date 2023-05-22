@@ -1,0 +1,9 @@
+.updateButton{
+  margin-bottom: 2rem;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
