@@ -47,14 +47,14 @@ const user = JSON.parse(localStorage.getItem("userData"))
         </div>
       <div>
 
-      <button onClick={logout}>Logout</button>
-      <button onClick={delUser}>delete</button>
+      <button className="button" onClick={logout}>Logout</button>
+      <button className="button" onClick={delUser}>delete</button>
       
-      <button class="updateButton" onClick={() => setUpdate(true)}>Update</button>
+      <button className="button" onClick={() => setUpdate(true)}>Update</button>
       </div>
       {
         update && 
-          <UpdateForm class="update-form" handleUpdateForm={handleUpdateForm}/>
+          <UpdateForm className="update-form" handleUpdateForm={handleUpdateForm}/>
         
       }
 
