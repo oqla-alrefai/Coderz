@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { deleteUser } from "../Redux/userSlice";
 import UpdateForm from "./Form";
 import { useDispatch } from "react-redux";
+import "./home.css"
 
 const Home = () => {
   const navigate = useNavigate();
